@@ -1,0 +1,25 @@
+.button {
+  width: 9rem;
+  height: 3rem;
+  border-radius: 10px;
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  font-size: large;
+  cursor: pointer;
+}
+
+.secondaryButton {
+  background-color: white;
+  color: var(--text-color);
+  margin: 5px;
+}
+
+.secondaryButton:hover {
+  background-color: rgb(240, 239, 239);
+}
+
+.resizeButton {
+  width: 6rem;
+  margin: 5px;
+}

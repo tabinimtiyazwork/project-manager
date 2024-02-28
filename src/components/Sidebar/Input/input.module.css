@@ -1,0 +1,35 @@
+.inputSection {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  font-size: x-large;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.inputSection input,
+textarea {
+  box-sizing: border-box;
+  width: 40vw;
+  height: 45px;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  background: #d3d3d3;
+  font-size: large;
+  color: var(--text-color);
+}
+
+.inputSection div {
+  margin-bottom: 20px;
+}
+
+.descriptionInput {
+  height: 170px;
+  resize: none;
+}
+
+.buttonContainer {
+  align-self: flex-end;
+}
